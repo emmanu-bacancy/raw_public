@@ -1,122 +1,130 @@
 {
-	"data": {
-		"currentPrivateCompany": {
-			"id": "110871429854806892",
-			"name": "Flexible Test",
-			"totalOrgsCount": 9,
-			"orgStructure": {
-				"count": 3,
-				"edges": [
-					{
-						"node": {
-							"orgWithChildOrgs": {
-								"id": "1184479137",
-								"slug": "Org-A",
-								"name": "Org-A",
-								"provider": "GitHub",
-								"image_url": "https://example.com/images/Org-A.jpg",
-								"org_url": "https://example.com/Org-A",
-								"children": [
-									{
-										"id": "4117802015",
-										"slug": "org_a1",
-										"name": "org_a1",
-										"provider": "GitLab",
-										"image_url": "https://example.com/images/sub_org_1.jpg",
-										"org_url": "https://example.com/sub_org_1",
-										"children": [
-											{
-												"id": "6716657009",
-												"slug": "org_a12",
-												"name": "org_a12",
-												"provider": "GitHub",
-												"image_url": "https://example.com/images/org_a12.jpg",
-												"org_url": "https://example.com/org_a12",
-												"children": []
-											},
-											{
-												"id": "0939340262",
-												"slug": "org_a11",
-												"name": "org_a11",
-												"provider": "GitHub",
-												"image_url": "https://example.com/images/org_a11.jpg",
-												"org_url": "https://example.com/org_a11",
-												"children": [
-													{
-														"id": "9841838096",
-														"slug": "org_a111",
-														"name": "org_a111",
-														"provider": "GitHub",
-														"image_url": "https://example.com/images/sub_sub_sub_org_2.jpg",
-														"org_url": "https://example.com/sub_sub_sub_org_2",
-														"children": [
-															{
-																"id": "6438608199",
-																"slug": "org_a1111",
-																"name": "org_a1111",
-																"provider": "GitHub",
-																"image_url": "https://example.com/images/sub_sub_sub_org_2.jpg",
-																"org_url": "https://example.com/sub_sub_sub_org_2",
-																"children": []
-															}
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						},
-						"__typename": "OrgEdge"
-					},
-					{
-						"node": {
-							"orgWithChildOrgs": {
-								"id": "0471257498",
-								"slug": "Org-B",
-								"name": "Org-B",
-								"provider": "GitHub",
-								"image_url": "https://example.com/images/Org-B.jpg",
-								"org_url": "https://example.com/Org-B",
-								"children": [
-									{
-										"id": "1028683616",
-										"slug": "org_b1",
-										"name": "org_b1",
-										"provider": "Bitbucket",
-										"image_url": "https://example.com/images/org_b1.jpg",
-										"org_url": "https://example.com/org_b1",
-										"children": []
-									}
-								]
-							}
-						},
-						"__typename": "OrgEdge"
-					},
-					{
-						"node": {
-							"orgWithChildOrgs": {
-								"id": "6378065669",
-								"slug": "Org-C",
-								"name": "Org-C",
-								"provider": "GitHub",
-								"image_url": "https://example.com/images/Org-C.jpg",
-								"org_url": "https://example.com/Org-B",
-								"children": []
-							}
-						},
-						"__typename": "OrgEdge"
-					}
-				],
-				"pageInfo": {
-					"hasNextPage": false,
-					"endCursor": "Mw",
-					"__typename": "PageInfo"
-				},
-				"__typename": "OrgConnection"
-			},
-			"__typename": "Company"
-		}
-	}
+   "data":{
+      "currentPrivateCompany":{
+         "id":"110871429854806892",
+         "name":"Flexible Test",
+         "totalOrgsCount":9,
+         "orgStructure":{
+            "count":3,
+            "edges":[
+               {
+                  "node":{
+                     "orgWithChildOrgs":{
+                        "id":"1184479137",
+                        "slug":"Org-A",
+                        "name":"Org-A",
+                        "provider":"GitHub",
+                        "image_url":"https://example.com/images/Org-A.jpg",
+                        "org_url":"https://example.com/Org-A",
+                        "children":[
+                           {
+                              "id":"4117802015",
+                              "slug":"org_a1",
+                              "name":"org_a1",
+                              "provider":"GitLab",
+                              "image_url":"https://example.com/images/sub_org_1.jpg",
+                              "org_url":"https://example.com/sub_org_1",
+                              "children":[
+                                 {
+                                    "id":"6716657009",
+                                    "slug":"org_a12",
+                                    "name":"org_a12",
+                                    "provider":"GitHub",
+                                    "image_url":"https://example.com/images/org_a12.jpg",
+                                    "org_url":"https://example.com/org_a12",
+                                    "children":[
+                                       
+                                    ]
+                                 },
+                                 {
+                                    "id":"0939340262",
+                                    "slug":"org_a11",
+                                    "name":"org_a11",
+                                    "provider":"GitHub",
+                                    "image_url":"https://example.com/images/org_a11.jpg",
+                                    "org_url":"https://example.com/org_a11",
+                                    "children":[
+                                       {
+                                          "id":"9841838096",
+                                          "slug":"org_a111",
+                                          "name":"org_a111",
+                                          "provider":"GitHub",
+                                          "image_url":"https://example.com/images/sub_sub_sub_org_2.jpg",
+                                          "org_url":"https://example.com/sub_sub_sub_org_2",
+                                          "children":[
+                                             {
+                                                "id":"6438608199",
+                                                "slug":"org_a1111",
+                                                "name":"org_a1111",
+                                                "provider":"GitHub",
+                                                "image_url":"https://example.com/images/sub_sub_sub_org_2.jpg",
+                                                "org_url":"https://example.com/sub_sub_sub_org_2",
+                                                "children":[
+                                                   
+                                                ]
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  "__typename":"OrgEdge"
+               },
+               {
+                  "node":{
+                     "orgWithChildOrgs":{
+                        "id":"0471257498",
+                        "slug":"Org-B",
+                        "name":"Org-B",
+                        "provider":"GitHub",
+                        "image_url":"https://example.com/images/Org-B.jpg",
+                        "org_url":"https://example.com/Org-B",
+                        "children":[
+                           {
+                              "id":"1028683616",
+                              "slug":"org_b1",
+                              "name":"org_b1",
+                              "provider":"Bitbucket",
+                              "image_url":"https://example.com/images/org_b1.jpg",
+                              "org_url":"https://example.com/org_b1",
+                              "children":[
+                                 
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  "__typename":"OrgEdge"
+               },
+               {
+                  "node":{
+                     "orgWithChildOrgs":{
+                        "id":"6378065669",
+                        "slug":"Org-C",
+                        "name":"Org-C",
+                        "provider":"GitHub",
+                        "image_url":"https://example.com/images/Org-C.jpg",
+                        "org_url":"https://example.com/Org-B",
+                        "children":[
+                           
+                        ]
+                     }
+                  },
+                  "__typename":"OrgEdge"
+               }
+            ],
+            "pageInfo":{
+               "hasNextPage":false,
+               "endCursor":"Mw",
+               "__typename":"PageInfo"
+            },
+            "__typename":"OrgConnection"
+         },
+         "__typename":"Company"
+      }
+   }
 }
